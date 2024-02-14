@@ -1,0 +1,13 @@
+.App-body {
+  height: 60%;
+  border-bottom: var(--border);
+}
+
+.App-body > p {
+  margin-left: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+.App-body button{
+  margin-left: .5cm;
+}
