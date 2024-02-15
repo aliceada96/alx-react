@@ -1,0 +1,28 @@
+table {
+  margin-top: 2em;
+  width: 80%;
+  border: 2px solid #ddd;
+  font-size: 1rem;
+  margin-bottom: 15em;
+  align-self: center;
+  padding:  .01em;
+}
+
+th {
+  border-bottom: 1px solid #ddd;
+}
+
+th,
+td {
+  width: 80%;
+}
+
+table {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+tr:nth-child(2) {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
