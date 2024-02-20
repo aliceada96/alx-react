@@ -1,0 +1,28 @@
+.Notifications {
+  border: 2px dashed red;
+  padding: .5em;
+  position: absolute;
+  top: 0.1rem;
+  right: 0;
+}
+
+.notification-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;
+}
+
+.menuItem {
+  text-align: right;
+  left: 10;
+}
+
+[data-notification-type='default'] {
+	color:rgb(12, 81, 165);
+}
+
+[data-urgent],
+[data-notification-type='urgent'] {
+	color: red;
+}
