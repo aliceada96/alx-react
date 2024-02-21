@@ -1,0 +1,20 @@
+.App-body {
+  height: auto;
+  border-bottom: var(--border);
+}
+
+.App-body > p {
+  margin-left: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+.App-body > label {
+  padding: 4cm;
+  font-weight: bold;
+
+}
+
+.App-body button{
+  position: inherit;
+  margin-left: .5cm;
+}
