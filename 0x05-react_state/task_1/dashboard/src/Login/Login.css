@@ -1,0 +1,15 @@
+.App-body {
+  height: 60%;
+  align-items: center;
+  margin: 10px;
+  border: 0cap;
+}
+
+.App-body > p {
+  margin-left: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+.App-body button{
+  margin-left: .5cm;
+}
