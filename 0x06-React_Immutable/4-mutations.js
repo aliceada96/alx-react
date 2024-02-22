@@ -1,4 +1,4 @@
-const { Map } = require('immutable');
+import { Map } from 'immutable';
 
 const map = Map({
   1: 'Liam',
@@ -9,6 +9,8 @@ const map = Map({
   6: 'Lucas',
 });
 
-export const map2 = map.withMutations((values) => {
-  values.set(2, 'Benjamin').set(4, 'Oliver');
-});
+const map2 = map
+  .set(2, 'Benjamin')
+  .set(4, 'Oliver');
+
+export { map, map2 };
