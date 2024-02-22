@@ -1,5 +1,4 @@
-import { Map } from 'immutable';
-
+const { Map } = require('immutable');
 
 const map = Map({
   1: 'Liam',
@@ -14,4 +13,9 @@ const map2 = map
   .set(2, 'Benjamin')
   .set(4, 'Oliver');
 
-export { map, map2 };
+
+module.exports = {
+  map,
+  map2,
+};
+
